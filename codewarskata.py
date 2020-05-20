@@ -1,4 +1,5 @@
 def score_hand(cards):
+    # declare null point list
     point_list = []
     aces = 0
     #count the aces, deal with them later
