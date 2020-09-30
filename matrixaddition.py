@@ -8,8 +8,8 @@ def matrix_addition(m1, m2):
             i += 1
             sum_matrix.append(placeholder)
 
+    # creating a template for the solution using the input
     result = m1
-    row = []
     k = 0
 
     for i in range(size):
