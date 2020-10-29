@@ -2,11 +2,10 @@ def repeats(arr):
     dup_list = []
     sum = 0
     for num in arr:
-        if arr.count(num) == 1 and (num not in dup_list):
+        if arr.count(num) == 1:
             dup_list.append(num)
         else:
             pass
-
     return (dup_list[0] + dup_list[1])
 
 
