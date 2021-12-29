@@ -9,4 +9,6 @@ def fizzbuzz(n):
             result.append('Buzz')
         else:
             result.append(num)
-    return result
+    print(result)
+
+fizzbuzz(10)

@@ -32,5 +32,3 @@ def solve(n):
 solve(770)
 solve(1250)
 solve(125)
-
-# a test 2
